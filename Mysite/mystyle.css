@@ -1,0 +1,15 @@
+p {
+    text-align: center;
+    color: brown;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#para2 {
+    font-size: 12px;
+    color: blue;
+}
+body{
+    background-color: beige;
+}
+
+/**/

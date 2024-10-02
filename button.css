@@ -1,0 +1,56 @@
+.button {
+    background-color: #9376e0; /* สีพื้นหลังของปุ่ม */
+    color: #f8f8f8; /* สีข้อความของปุ่ม */
+    border: none; /* ไม่มีกรอบรอบปุ่ม */
+    padding: 10px 20px; /* ระยะห่างภายในปุ่ม */
+    border-radius: 25px; /* ขอบมน */
+    cursor: pointer; /* แสดงเคอร์เซอร์เป็นรูปมือเมื่อเลื่อนเมาส์ */
+    font-size: 16px; /* ขนาดข้อความ */
+    text-shadow: 2px 2px 3px #000; /* เงาของข้อความ */
+    transition: background-color 0.3s ease; /* การเปลี่ยนแปลงสีพื้นหลังเมื่อเลื่อนเมาส์ */
+}
+
+/* สไตล์ปุ่มเมื่อเลื่อนเมาส์ */
+.button:hover {
+    background-color: #0056b3; /* สีพื้นหลังเมื่อเลื่อนเมาส์ */
+}
+
+/* สไตล์ปุ่มรีเซ็ต */
+.button-reset {
+    background-color: #6c757d; /* สีพื้นหลังของปุ่มรีเซ็ต */
+}
+
+.button-reset:hover {
+    background-color: #5a6268; /* สีพื้นหลังของปุ่มรีเซ็ตเมื่อเลื่อนเมาส์ */
+}
+
+/* สไตล์ปุ่มส่งข้อมูล "เข้าระบบ" */
+.button-login {
+    background-color: #007bff; /* สีพื้นหลังของปุ่ม "เข้าระบบ" */
+}
+
+.button-login:hover {
+    background-color: #0056b3; /* สีพื้นหลังของปุ่ม "เข้าระบบ" เมื่อเลื่อนเมาส์ */
+}
+
+/* สไตล์ปุ่มส่งข้อมูล "สมัครสมาชิก" */
+.button-signup {
+    background-color: #28a745; /* สีพื้นหลังของปุ่ม "สมัครสมาชิก" */
+}
+
+.button-signup:hover {
+    background-color: #218838; /* สีพื้นหลังของปุ่ม "สมัครสมาชิก" เมื่อเลื่อนเมาส์ */
+}
+
+.button-ctw {
+    background-color: #9376e0;
+}
+
+.button-relg{ 
+    background-color: #007bff;
+    color: white;
+    border: 1px black;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3 ease;
+}

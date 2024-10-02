@@ -1,0 +1,14 @@
+p {
+    text-align: center;
+    color: palevioletred;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#paraex {
+    font-size: 12px;
+    color: orangered;
+}
+
+body {
+    background-color: aquamarine;
+}

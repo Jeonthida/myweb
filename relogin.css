@@ -1,0 +1,29 @@
+body{
+    text-align: center;
+    margin: 300px 100px 300px 100px;
+    color: black;
+
+    background-image:  url('ve.jpg');
+    background-size: cover;
+    
+    /*background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;*/
+}
+
+h1{
+    color: white;
+}
+
+.button{ 
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    padding: 10px 20px;
+    transition: background-color 0.3 ease;
+    
+}
+

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="mystylelogin.css">
+    <link rel="stylesheet" href="button.css">
+
+</head>
+<body>
+    <div class="login">
+    <h1>Login Website</h1>
+    <br>
+    
+    <form action="receivelogin.php" method="post" target="_blank">
+        
+        <input type="text" id="user" name="user"  size="25" placeholder="username"> <br>
+        <br>
+        <input type="password" id="password" name="pass" size="25" placeholder="password"> <br>
+        
+        <br>
+        <div class="logintooltip"> 
+            เมื่อกรอกข้อมูลครบแล้ว กรุณากดปุ่มเพื่อเข้าสู่ระบบ
+        </div>
+        <br>
+
+    <div class="loginbtn"> 
+       <input type="submit" id="send" name="send" value="เข้าสู่ระบบ" class="button button-login">  
+       <input type="reset" id="cancel" name="cancel" value="ยกเลิก" class="button button-reset">
+    </div>
+
+    </form>
+
+    <div class="signin">
+        <form action="member.html" method="post" target="_blank"><br>
+        <h1>Sign in</h1>
+        click to me <input type="submit" id="submit" name="register" value="สมัครสมาชิก" class="button button-signup">
+
+        </form>
+    </div>
+</body>
+</html>
